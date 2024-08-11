@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111111;
+  }
+  nav{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+      margin: 0px 200px; 
+     padding: 30px 10px;  
+    
+  }
+  
+  label.logo{
+   font-weight: 600;  
+   font-size: 30px;
+   color: #E6533C;
+  }
+  
+  nav ul{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+      width: 458px;
+     height: 38px;  
+     padding: 20px; 
+     border: 1px solid #ffffff1a;
+     border-radius: 20px;
+  }
+  nav ul li{
+   list-style: none;
+   margin-right: 50px;
+   color: #FFFFFF;
+  }
+  .btn-primary{
+     background-color: #E6533C;
+     color: #FFFFFF;
+     font-weight: bold;
+     padding: 5px 20px;
+     border: none;
+     border-radius: 50px;
+  }
+  
+  .checkbtn{
+   font-size: 30px;
+   color: #FFFFFF;
+   margin-right: 40px;
+   cursor: pointer;
+    display: none;    
+  }
+  #check{
+    display: none;  
+  } 
+
+
+  /* smaller device */
+ @media screen and (max-width:576px){
+    label.logo{
+      font-size: 24px; 
+       display: block;
+      width: 138px;
+       height: 43px;
+       padding: 10px; 
+  
+     }
+     nav{
+       margin-left: 20px;
+     }
+    nav ul{
+      border: none;
+    }
+      nav ul li{
+       display: none;
+       
+      }
+      .btn-primary{
+       display: none;
+      } 
+      .checkbtn{
+        display: block;
+        margin-left: 110px;
+        font-size: 20px;
+      }
+  } 
