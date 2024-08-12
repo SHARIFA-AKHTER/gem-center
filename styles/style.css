@@ -402,31 +402,34 @@ body{
        margin-right: 30px;
    }
  .image-id{
-   width: 353px;
+    width: 353px;
    height: 588px;
  }
 .table-header{
-    /* flex-direction: column; 
-    text-align: right;
-  margin-right: 200px; */
+    width: 338px;
+    height: 1398px;
 }
  .table{
-    flex-direction: column; 
-    /* margin-left: 100px; */
-    /* width: 318px;
-    height: 124px;     */
-   
+    flex-direction: column;
+    width: 320px;
+    height: 120px;   
+  text-align: left;
+
  }
 .table h2{ 
-    margin-right: 100px;
-    flex-direction: column; 
-     width: 318px;
-     height: 38px;  
+   font-size: 20px;
+   width: 318px;
+   height: 38px;
 } 
 .table p{
-    flex-direction: column; 
-  width: 316px;
- height: 72px;   
+    font-size: 12px;
+   width: 316px;
+   height: 72px;
+} 
+.table-one{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-right: 100%;
 }
   } 
 
