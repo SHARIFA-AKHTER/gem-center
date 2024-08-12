@@ -151,6 +151,7 @@ body{
     height: 40px;
     color: #FFFFFF; 
     position: absolute;
+    display: none;
   }
    .card-two{
     color: #FFFFFF;
@@ -192,7 +193,18 @@ body{
      border-radius: 30px;
    
    }
-   
+   .btn-pride{
+    height: 44px;
+    width: 160px; 
+    color: #FFFFFF;
+    background-color: #E6533C;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 30px;
+    display: none; 
+   } 
    .btn-prim{
      width: 190px;
      height: 40px; 
@@ -210,7 +222,8 @@ body{
     width: 350px;
   } 
 
-  /* smaller device */
+
+   /* smaller device  */
  @media screen and (max-width:576px){
     label.logo{
       font-size: 24px; 
@@ -221,7 +234,7 @@ body{
   
      }
      nav{
-       margin-left: 20px;
+       margin-left: 10px; 
      }
     nav ul{
       border: none;
@@ -233,9 +246,119 @@ body{
       .btn-primary{
        display: none;
       } 
-      .checkbtn{
+  .checkbtn{
         display: block;
         margin-left: 110px;
         font-size: 20px;
-      }
+      } 
+  } 
+
+  @media screen and (max-width:576px){
+    .header-one{
+         margin-left: 40%; 
+        font-size: 35px;
+        width: 285px;
+        height: 129px;
+    }
+    .span-id{
+        font-size: 38px;
+    }
+    .title-one{
+        margin-left: 40%;
+        font-size: 18px;
+         width: 274px;
+        height: 96px;
+        margin-top: 40px;
+    }
+    .btn-center{
+         margin-left: 40%;
+         margin-top: 10%;
+        width: 350px;
+        height: 54px;  
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;  
+    }
+    .btn-prime{
+        display: none;
+    }
+    .btn-pride{
+        display: block;
+        width: 140px; 
+        height: 40px; 
+        font-size: 18px;
+    }
+    .btn-prim{
+        display: block;
+       width: 140px;
+        height: 40px;  
+        font-size: 12px;
+        margin-right: 70px;
+    }
+    .play-icon{
+        display: block;
+    }
+    .item-bar{
+        flex-direction: column; 
+    }
+    .card-one{
+       flex-direction: column;
+    }
+
+    .card-me{
+        margin-right: 247%;
+        margin-top: 250%;
+        width: 145px;
+        height: 74px;  
+    }
+    .card-me h4{
+        font-size: 20px;
+        width: 60px;
+        height: 30px;
+    }
+    .card-me p{
+        font-size: 10px;
+        width: 111px;
+        height: 28px;
+    }
+
+    .card-two{
+        margin-right: 170%;
+        margin-top: 230%;
+        width: 155px;
+        height: 72px;
+        gap: 30px;
+    }
+
+    .circle-1{
+        border:15px solid #E6533C; 
+        border-radius: 50%; 
+    }
+    .play-icon{
+        width:15px;
+        height: 15px;
+        font-size: 14px;
+    }
+
+    .card-three h4{
+        width: 51px;
+        height: 19px;
+        font-size: 16px;
+        position: relative;
+        margin-right: 30px;
+    }
+    .card-three p{
+        width: 90px;
+        height: 29px;  
+        font-size: 12px;
+        position: relative;
+        margin-right: 30px;
+    }
+  .image-id{
+    width: 353px;
+    height: 588px;
+  }
+
   } 
