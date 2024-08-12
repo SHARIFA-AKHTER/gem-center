@@ -221,7 +221,56 @@ body{
     height: 580px;
     width: 350px;
   } 
-
+/* table section  */
+.table-header{
+    width: 1044px;
+   height: 452px; 
+   margin: 0px 200px; 
+   background-color: #111111;
+ }
+ .table{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   color: #FFFFFF;
+   width: 950px;
+   height: 150px;
+   gap: 20px;
+ }
+  .table h2{
+   font-size: 28px;
+ }
+ .table p{
+   font-size: 18px;
+ }
+ .table-one{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #FFFFFF;
+    
+ } 
+ 
+  .table-two{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+ }
+ 
+  #circle{
+   grid-column: 2;
+   grid-row: 2;
+    border-radius: 50%; 
+ }
+ .table-three{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    width: 210px;
+   height: 70px; 
+ }   
 
    /* smaller device  */
  @media screen and (max-width:576px){
@@ -251,114 +300,134 @@ body{
         margin-left: 110px;
         font-size: 20px;
       } 
-  } 
 
-  @media screen and (max-width:576px){
-    .header-one{
-         margin-left: 40%; 
-        font-size: 35px;
-        width: 285px;
-        height: 129px;
-    }
-    .span-id{
-        font-size: 38px;
-    }
-    .title-one{
+      .header-one{
+        margin-left: 40%; 
+       font-size: 35px;
+       width: 285px;
+       height: 129px;
+   }
+   .span-id{
+       font-size: 38px;
+   }
+   .title-one{
+       margin-left: 40%;
+       font-size: 18px;
+        width: 274px;
+       height: 96px;
+       margin-top: 40px;
+   }
+   .btn-center{
         margin-left: 40%;
-        font-size: 18px;
-         width: 274px;
-        height: 96px;
-        margin-top: 40px;
-    }
-    .btn-center{
-         margin-left: 40%;
-         margin-top: 10%;
-        width: 350px;
-        height: 54px;  
-        font-size: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;  
-    }
-    .btn-prime{
-        display: none;
-    }
-    .btn-pride{
-        display: block;
-        width: 140px; 
-        height: 40px; 
-        font-size: 18px;
-    }
-    .btn-prim{
-        display: block;
-       width: 140px;
-        height: 40px;  
-        font-size: 12px;
-        margin-right: 70px;
-    }
-    .play-icon{
-        display: block;
-    }
-    .item-bar{
-        flex-direction: column; 
-    }
-    .card-one{
-       flex-direction: column;
-    }
+        margin-top: 10%;
+       width: 350px;
+       height: 54px;   
+       font-size: 12px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 20px;  
+   }
+   .btn-prime{
+       display: none;
+   }
+   .btn-pride{
+       display: block;
+       width: 140px; 
+       height: 40px; 
+       font-size: 18px;
+   }
+   .btn-prim{
+       display: block;
+      width: 140px;
+       height: 40px;  
+       font-size: 12px;
+       margin-right: 70px;
+   }
+   .play-icon{
+       display: block;
+   }
+   .item-bar{
+     flex-direction: column;  
+   }
+   .card-one{
+      flex-direction: column; 
+   }
 
-    .card-me{
-        margin-right: 247%;
-        margin-top: 250%;
-        width: 145px;
-        height: 74px;  
-    }
-    .card-me h4{
-        font-size: 20px;
-        width: 60px;
-        height: 30px;
-    }
-    .card-me p{
-        font-size: 10px;
-        width: 111px;
-        height: 28px;
-    }
+   .card-me{
+       margin-right: 247%;
+       margin-top: 250%;
+       width: 145px;
+       height: 74px;  
+   }
+   .card-me h4{
+       font-size: 20px;
+       width: 60px;
+       height: 30px;
+   }
+   .card-me p{
+       font-size: 10px;
+       width: 111px;
+       height: 28px;
+   }
 
-    .card-two{
-        margin-right: 170%;
-        margin-top: 230%;
-        width: 155px;
-        height: 72px;
-        gap: 30px;
-    }
+   .card-two{
+       margin-right: 170%;
+       margin-top: 230%;
+       width: 155px;
+       height: 72px;
+       gap: 30px;
+   }
 
-    .circle-1{
-        border:15px solid #E6533C; 
-        border-radius: 50%; 
-    }
-    .play-icon{
-        width:15px;
-        height: 15px;
-        font-size: 14px;
-    }
+   .circle-1{
+       border:15px solid #E6533C; 
+       border-radius: 50%; 
+   }
+   .play-icon{
+       width:15px;
+       height: 15px;
+       font-size: 14px;
+   }
 
-    .card-three h4{
-        width: 51px;
-        height: 19px;
-        font-size: 16px;
-        position: relative;
-        margin-right: 30px;
-    }
-    .card-three p{
-        width: 90px;
-        height: 29px;  
-        font-size: 12px;
-        position: relative;
-        margin-right: 30px;
-    }
-  .image-id{
-    width: 353px;
-    height: 588px;
-  }
-
+   .card-three h4{
+       width: 51px;
+       height: 19px;
+       font-size: 16px;
+       margin-right: 30px;
+   }
+   .card-three p{
+       width: 90px;
+       height: 29px;  
+       font-size: 12px;
+       margin-right: 30px;
+   }
+ .image-id{
+   width: 353px;
+   height: 588px;
+ }
+.table-header{
+    /* flex-direction: column; 
+    text-align: right;
+  margin-right: 200px; */
+}
+ .table{
+    flex-direction: column; 
+    /* margin-left: 100px; */
+    /* width: 318px;
+    height: 124px;     */
+   
+ }
+.table h2{ 
+    margin-right: 100px;
+    flex-direction: column; 
+     width: 318px;
+     height: 38px;  
+} 
+.table p{
+    flex-direction: column; 
+  width: 316px;
+ height: 72px;   
+}
   } 
+
+ 
