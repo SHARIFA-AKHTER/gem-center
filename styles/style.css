@@ -324,7 +324,6 @@ body{
   background-color: #222222;
   
 }
-
  .Calculator{
   color: #FFFFFF;
    display: flex;
@@ -479,6 +478,54 @@ width: 577px;
    margin-top: 20px;
 }
 
+/* our team */
+
+.team-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF; 
+ 
+}
+.team-one h3{
+   width: 340px;
+  height: 58px;
+  font-size: 28px;
+}
+.team-one p{
+   width: 671px;
+  height: 48px; 
+  font-size: 15px;
+}
+.trainer-team{  
+   width: 1060px; 
+  height: 604px;  
+  margin: 0px 200px; 
+}
+ .trainer-team-one{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    flex-direction: column;
+   background-color: rgba(255, 255, 255, 0.1);
+   padding: 20px;
+} 
+
+ .trainer-team-two{
+  display: flex; 
+} 
+.trainer-team-two img{
+  width: 327px;
+  height: 272px;
+  border-radius: 10px;
+}
+.trainer-team-two p{
+  position: absolute;
+ color: #FFFFFF;
+ margin-top: 230px;
+ margin-left: 20px;
+}
 
    /* smaller device  */
  @media screen and (max-width:576px){
@@ -678,6 +725,40 @@ width: 577px;
  padding: 10px 20px;
 border-radius: 40px;
 } 
-  } 
 
+.Calculator{
+    margin-left: 5%;  
+    width: 353px; 
+    height: 124px;
+}
+.Calculator h3{
+  width: 236px;
+  height: 58px;
+  font-size: 26px;
+  margin-left: 68px;
+}
+.Calculator p{
+  width: 320px;
+  height: 72px;
+  font-size: 10px;
+}
+.super-section{
+  /* width: 394px;
+  height: 772px; */
+  position: absolute;
+margin: 5%;
+}
+  .table-manager{
+    display: block;
+  }
+.table-Calculator{
+ display: block;
+ width: 443px;
+ height: 34px;
+ font-size: 20px;
+}
+table{
+
+}
+}
  
