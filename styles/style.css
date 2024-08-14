@@ -589,7 +589,6 @@ width: 577px;
    width: 150%;
   height: 2px;
   background-color: rgba(255, 255, 255, 0.1);
- /* margin: 0px 200px;  */
  margin-left: 90%;
  } 
 
@@ -808,14 +807,14 @@ border-radius: 40px;
 } 
 
 
-/* .Calculator{
+.Calculator{
     margin-left: 5%;  
-    width: 353px; 
-    height: 124px;
+     width: 353px; 
+    height: 124px; 
 }
 .Calculator h3{
   width: 236px;
-  height: 58px;
+  height: 58px; 
   font-size: 26px;
   margin-left: 68px;
 }
@@ -826,22 +825,87 @@ border-radius: 40px;
 }
 .super-section{
   width: 394px;
-  height: 772px; 
-  position: absolute;
-margin: 5%;
+  height: 772px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  margin: 5%;
+ 
 }
   .table-manager{
     display: block;
   }
-.table-Calculator{
- display: block;
- width: 443px;
- height: 34px;
- font-size: 20px;
+  .table-Calculator{
+    /* width: 167px;
+    height: 19px; */
+    /* margin: 5%; */
+     position: relative; 
+     display: block; 
+  } 
+.table-Calculator h4{
+ font-size: 18px;
+color: aqua;
+margin-right: 250px;
 }
-table{
+.table-manager{
+ width: 310px;
+  height: 220px; 
+   margin-right: 125%;
+  margin-bottom: 220px;
+}
 
-} */
+table{
+  width: 310px;
+  height: 210px;
+  display: flex;
+}
+
+.super-div{
+  width: 354px;
+  height: 395px;
+  margin: 5%;
+  margin-right: 100%;
+  margin-bottom: 60%;
+}
+.bmi-header{
+  width: 354px;
+  height: 105px;
+  margin-left: 75%;
+}
+.bmi-header h4{
+
+   /* width: 100px;
+  height: 19px;  */
+}
+.bmi-header p{
+  margin-right: 160px;
+  width: 346px;
+  height: 72px;
+}
+.super-form{
+  width: 353px;
+  height: 168px;
+  margin-top: 100px;
+  margin-right: 90px;
+}
+.input-item{
+  width: 140px;
+  height: 38px;
+}
+select{
+  width: 140px;
+  height: 38px;
+}
+.select-item{
+  width: 335px;
+  height: 38px;
+}
+.btn-perfect{
+  width: 216px;
+  height: 45px;
+}
 
 .team-one{
   margin-left: 50px;
@@ -859,18 +923,53 @@ table{
 .trainer-team{
   width: 353px;
   height: 1188px;
-  display: block;
-  position: relative;
-  flex-direction: column;
-  margin: 5%;
+  margin: 5%; 
 }
 .trainer-team-one{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  text-align: center;
-  margin-left: 0;
-  margin-right: 200px;
+}
+
+.footer-container{
+  width: 393px;
+  height: 850px; 
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin-top: 200%;
+}
+.footer-top{
+width: 317px;
+height: 200px;
+margin: 5%;
 
 }
+.footer-one{
+  margin-top: 70%;
+  margin-left: 20px;
+  width: 181px;
+  height: 140px;
+  position: absolute; 
 }
+
+.footer-two{
+  width: 181px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.last-tag p{
+  width: 300px;
+  height: 10px;  
+  font-size: 16px;
+  margin: 5%; 
+  margin-right: 80px;
+}
+.vertical-line{
+  width: 300px;
+  margin: 5%;
+  margin-right: 80px;
+}
+}
+
+
  
