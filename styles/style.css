@@ -316,6 +316,170 @@ body{
     border-radius: 30px;
    
   }
+  
+/* calculator */
+.super-section{
+  width: 1540px;
+  height: 440px;   
+  background-color: #222222;
+  
+}
+
+ .Calculator{
+  color: #FFFFFF;
+   display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.Calculator-content{
+  width: 671px;
+  height: 120px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;  
+   margin-top: 10px;
+margin-right: 190px;
+}
+
+.Calculator-content h3{
+  font-size: 28px;
+  font-weight: bold;
+  width: 353px;
+  height: 58px;
+}
+
+.Calculator-content p{
+  font-size: 14px;
+  width: 671px;
+  height: 48px;
+  margin-left: 50%;
+}
+
+.table-item{
+  margin: 0px 200px; 
+  position: relative;
+  margin-top: 30px;
+ }
+ .table-Calculator{
+    width:443px; 
+   height: 34px;      
+  color: #FFFFFF; 
+  margin-left: 14px; 
+  font-size: 24px;
+ font-weight: bold; 
+ position: absolute; 
+ }
+.table-Calculator h4{
+  margin-top: 35px;
+}
+table{
+  width: 85%; 
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  border-collapse: collapse;   
+  font-size: 16px;
+  color: #FFFFFF; 
+  position: absolute;
+  padding: 20px;
+   margin-top: 8%;
+}
+table, th{
+ color: #FFFFFF;
+ font-size: 20px;
+}
+
+tr,td{
+   display: grid;
+  grid-template-columns: repeat(1,1fr);
+  border: 1px solid #FFFFFF ; 
+  color: rgba(255, 255, 255, 0.6);
+} 
+
+.bmi-header{
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+  margin-left: 50%;
+}
+ .bmi-header h4{
+ width: 443px;
+ height: 34px;    
+ font-size: 20px;
+ margin-top: 30px;
+ margin-right: 20%; 
+ font-size: 24px;
+ font-weight: bold;
+}
+.bmi-header p{
+ width: 595px;
+  height: 48px;  
+  font-size: 14px;
+}
+.action{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+ color: #FFFFFF; 
+  position: relative;
+}
+.form-bar{
+  width: 577px;
+  height: 168px;     
+  margin-left: 55%; 
+  padding: 10px;
+
+}
+.input-item{
+  border-radius: 5px;
+  margin-bottom: 15px;
+   width: 282px;
+  height: 48px;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+}
+
+label{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+select{
+   padding: 10px; 
+   border-radius: 5px; 
+   width: 282px;
+  height: 48px;   
+  gap: 10px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+.select-item{
+width: 577px;
+ height: 48px;  
+}
+.btn-perfect{
+  height: 40px;
+  width: 190px; 
+  color: #FFFFFF;
+  background-color: #E6533C;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 30px;  
+   margin-top: 20px;
+}
+
+
    /* smaller device  */
  @media screen and (max-width:576px){
     label.logo{
